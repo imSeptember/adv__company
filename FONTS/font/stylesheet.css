@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Xolonium';
+    src: url('Xolonium.eot');
+    src: local('Xolonium'),
+        url('Xolonium.eot?#iefix') format('embedded-opentype'),
+        url('Xolonium.woff2') format('woff2'),
+        url('Xolonium.woff') format('woff'),
+        url('Xolonium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Xolonium';
+    src: url('Xolonium-Bold.eot');
+    src: local('Xolonium Bold'), local('Xolonium-Bold'),
+        url('Xolonium-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Xolonium-Bold.woff2') format('woff2'),
+        url('Xolonium-Bold.woff') format('woff'),
+        url('Xolonium-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
