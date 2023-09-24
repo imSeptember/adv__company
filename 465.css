@@ -560,6 +560,15 @@
     margin-top: 30px;
   }
 
+  .discount__family {
+    display: flex;
+    justify-content: center;
+  }
+
+  .discount__family__img {
+    width: 420px;
+  }
+
   #text__mrg__top,
   #text__mrg__top02 {
     margin-top: 30px;

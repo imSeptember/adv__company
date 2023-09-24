@@ -26,6 +26,16 @@
     padding-bottom: 10px;
   }
 
+  .discount__family {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .discount__family__img {
+    width: 420px;
+  }
+
   .nav__logo__container {
     display: flex;
     align-items: center;
