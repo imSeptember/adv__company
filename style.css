@@ -3,7 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 @import url(normalize.css);
-@import url(1045.css);
+@import url(945.css);
+@import url(795.css);
 
 @media (min-width: 945px) {
   * {
