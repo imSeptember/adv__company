@@ -27,7 +27,6 @@
   }
 
   .discount__family {
-    margin-top: 40px;
     display: flex;
     justify-content: center;
   }
@@ -556,7 +555,7 @@
     font-family: "Bellefair";
     color: #1a243f;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 34px;
     text-align: left;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
