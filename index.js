@@ -42,3 +42,23 @@ setInterval(toggleText, 3000);
 //     loader05.style.transition = "opacity 0.5s ease-in-out";
 //   }, 1000);
 // });
+
+/// BURGER LOGIC ///
+
+const iconMenu = document.querySelector(".menu__icon");
+const menuBody = document.querySelector(".nav__container");
+const linkTg = document.querySelector(".link__style__tg");
+
+// if (iconMenu) {
+iconMenu.addEventListener("click", function (e) {
+  document.body.classList.toggle("__lock");
+  iconMenu.classList.toggle("__active");
+  menuBody.classList.toggle("__active");
+  linkTg.classList.toggle("__active");
+
+  // if (!popUp.classList.contains("hidden")) {
+  //   popUp.classList.toggle("hidden");
+  //   closeOverlay();
+  //   unlock();
+  // }
+});
