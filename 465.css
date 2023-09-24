@@ -139,8 +139,6 @@
     max-width: 1252px;
     display: flex;
     flex-direction: column;
-    /* margin-left: auto;
-    margin-right: auto; */
     justify-content: center;
     align-items: center;
   }
@@ -567,7 +565,7 @@
   }
 
   .discount__family__img {
-    width: 380px;
+    width: 370px;
   }
 
   #text__mrg__top,
@@ -581,7 +579,7 @@
 
   .discount__zsy {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     position: absolute;
     color: white;
     font-size: 34px;
@@ -589,7 +587,7 @@
 
   .btn__main__page__discount {
     margin-top: 80px;
-    margin-left: 24px;
+    margin-left: 14px;
     background: #8b0000;
     padding: 16px 24px;
     font-weight: bold;
