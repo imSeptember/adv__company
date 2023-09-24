@@ -3,11 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 @import url(normalize.css);
+@import url(1245.css);
 @import url(945.css);
 @import url(795.css);
 @import url(465.css);
 
-@media (min-width: 945px) {
+@media (min-width: 1345px) {
   * {
     text-decoration: none;
     padding: 0;
@@ -52,6 +53,7 @@
   .nav__logo__text__bottom {
     color: #b3b3b3;
   }
+
   .nav__container {
     display: flex;
     margin-left: 10px;
@@ -571,5 +573,9 @@
   .menu__icon {
     display: none;
     visibility: hidden;
+  }
+
+  .small__btns {
+    display: none;
   }
 }

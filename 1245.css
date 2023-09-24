@@ -1,4 +1,4 @@
-@media (min-width: 795px) and (max-width: 945px) {
+@media (min-width: 945px) and (max-width: 1345px) {
   * {
     text-decoration: none;
     padding: 0;
@@ -45,28 +45,13 @@
   }
 
   .nav__container {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    transition: right 0.3s ease 0s;
-    right: -100%;
-    overflow: auto;
-    z-index: 4;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav__container.__active {
-    right: 0;
+    margin-left: 10px;
+    margin-top: 15px;
   }
 
   .nav__container li {
     list-style: none;
-    padding: 20px;
   }
 
   .nav__link {
@@ -140,18 +125,15 @@
   .main__page__kalenskiy__family {
     max-width: 1252px;
     display: flex;
-    flex-direction: column;
-    /* margin-left: auto;
-    margin-right: auto; */
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .main__page__right__side__photo {
     width: 540px;
   }
   .main__page__left__side__photo__family {
-    width: 540px;
+    width: 450px;
   }
 
   .main__page__left__side {
@@ -163,12 +145,8 @@
   }
 
   .main__page__right__side__family {
+    margin-left: 40px;
     padding: 0 8px;
-  }
-
-  .discount__family {
-    display: flex;
-    justify-content: center;
   }
 
   .main__page__left__side__article {
@@ -208,11 +186,6 @@
     margin-top: -70px;
     margin-left: 1px;
     /* top: 1430px; */
-  }
-
-  .breadcrumbs__container {
-    display: flex;
-    align-items: center;
   }
 
   .box__text {
@@ -544,11 +517,10 @@
     font-family: "Bellefair";
     color: #1a243f;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
-    text-align: center;
   }
 
   .heading__text__family.hidden {
@@ -559,7 +531,6 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     height: 300px;
-    text-align: center;
   }
   .text__mrg__top {
     margin-top: 30px;
@@ -575,16 +546,16 @@
   }
 
   .discount__zsy {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 24px;
     position: absolute;
     color: white;
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .btn__main__page__discount {
-    margin-top: 120px;
-    margin-left: 42px;
+    margin-top: 100px;
+    margin-left: 26px;
     background: #8b0000;
     padding: 16px 24px;
     font-weight: bold;
@@ -608,76 +579,8 @@
   //  */
 
   .menu__icon {
-    z-index: 5;
-    display: block;
-    visibility: visible;
-    position: relative;
-    width: 45px;
-    height: 20px;
-    cursor: pointer;
-    margin-left: 40px;
-    margin-right: 20px;
-  }
-
-  .menu__icon span,
-  .menu__icon::before,
-  .menu__icon::after {
-    left: 0;
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    transition: all 0.3s ease 0s;
-    background-color: #fff;
-  }
-
-  .menu__icon::before,
-  .menu__icon::after {
-    content: "";
-  }
-
-  .menu__icon::before {
-    top: 0;
-  }
-  .menu__icon::after {
-    bottom: 0;
-  }
-
-  .menu__icon span {
-    top: 50%;
-    transform: scale(1) translate(0px, -50%);
-  }
-
-  /* .menu__icon {
     display: none;
     visibility: hidden;
-  } */
-
-  .menu__icon.__active span {
-    transform: scale(0) translate(0px, -50%);
-  }
-
-  .menu__icon.__active::before {
-    top: 50%;
-    transform: rotate(-45deg) translate(0px, -50%);
-  }
-
-  .menu__icon.__active::after {
-    top: 50%;
-    transform: rotate(45deg) translate(0px, 50%);
-  }
-
-  .menu__icon.__active span {
-    transform: scale(0) translate(0px, -50%);
-  }
-
-  .menu__icon.__active::before {
-    top: 50%;
-    transform: rotate(-45deg) translate(0px, -50%);
-  }
-
-  .menu__icon.__active::after {
-    top: 50%;
-    transform: rotate(45deg) translate(0px, 50%);
   }
 
   body.__lock {
@@ -686,5 +589,9 @@
 
   .small__btns {
     display: none;
+  }
+
+  .discount__family__img {
+    width: 420px;
   }
 }

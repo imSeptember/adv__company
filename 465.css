@@ -138,8 +138,16 @@
   .main__page__kalenskiy__family {
     max-width: 1252px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: column;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .breadcrumbs__container {
+    display: flex;
+    align-items: center;
   }
 
   .main__page__right__side__photo {
@@ -158,7 +166,6 @@
   }
 
   .main__page__right__side__family {
-    margin-left: 100px;
     padding: 0 8px;
   }
 
@@ -458,13 +465,6 @@
     font-family: "Montserrat", sans-serif;
     flex-wrap: wrap;
   }
-  /* .footer__text__left {
-    order: 1;
-  }
-
-  .footer__text__right {
-    order: 2;
-  } */
 
   .footer__text {
     color: white;
@@ -543,6 +543,7 @@
     text-align: left;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    text-align: center;
   }
 
   .heading__text__family.hidden {
@@ -552,7 +553,8 @@
   .heading__more__family {
     letter-spacing: 2px;
     text-transform: uppercase;
-    height: 400px;
+    height: 300px;
+    text-align: center;
   }
   .text__mrg__top {
     margin-top: 30px;
@@ -681,10 +683,20 @@
     height: 40px;
     background-color: #8b0000;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    position: sticky;
   }
   .small__btn {
     stroke: #fff;
+  }
+
+  .line {
+    border: none; /* Remove the default horizontal line */
+    width: 1px; /* Set the desired width of the vertical line */
+    height: 20px; /* Set the desired height of the vertical line */
+    background-color: #a6a6a6; /* Set the color of the vertical line */
+    margin: 0 10px; /* Adjust the margin to control the spacing between elements */
+    /* transform: rotate(90deg); */
   }
 }
