@@ -1,4 +1,4 @@
-@media (min-width: 465px) and (max-width: 795px) {
+@media (max-width: 465px) {
   * {
     text-decoration: none;
     padding: 0;
@@ -144,10 +144,10 @@
   }
 
   .main__page__right__side__photo {
-    width: 440px;
+    width: 340px;
   }
   .main__page__left__side__photo__family {
-    width: 440px;
+    width: 340px;
   }
 
   .main__page__left__side {
@@ -193,13 +193,12 @@
 
   .box__wrapper {
     background-color: #8b0000;
-    height: 320px;
-    width: 439px;
+    height: 407px;
+    width: 339px;
     position: absolute;
     padding: 30px 56px;
     margin-top: -70px;
     margin-left: 1px;
-    /* top: 1430px; */
   }
 
   .box__text {
@@ -277,7 +276,7 @@
 
   .main__page__services__cantainer {
     display: flex;
-    margin-top: 252px;
+    margin-top: 352px;
     margin-bottom: 184px;
     max-width: 1252px;
     /* justify-content: center; */
