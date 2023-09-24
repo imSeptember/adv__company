@@ -104,7 +104,6 @@
     height: 10%;
     background-size: cover;
     z-index: -1;
-    margin-top: 40px;
   }
 
   .phone {
@@ -676,5 +675,16 @@
 
   body.__lock {
     overflow: hidden;
+  }
+
+  .small__btns {
+    height: 40px;
+    background-color: #8b0000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .small__btn {
+    stroke: #fff;
   }
 }
