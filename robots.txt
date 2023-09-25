@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login
+Disallow: /*?s=
+
+User-agent: Googlebot
+Disallow: /wp-admin/
+Disallow: /wp-login
+Disallow: /*?s=
+
+Sitemap: https://kalenskiy.netlify.app/sitemap.xml
