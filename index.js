@@ -25,40 +25,71 @@ function toggleText() {
 
 setInterval(toggleText, 3000);
 
-// ADD TRANSITION AFTER THE PAGE IS LOADED
-
-// window.addEventListener("load", function () {
-//   const loader01 = document.querySelector(".btn__main__page");
-//   const loader02 = document.querySelector(".main__page__services__link");
-//   const loader03 = document.querySelector(".button__head");
-//   const loader04 = document.getElementById("svg01");
-//   const loader05 = document.querySelector(".heading__text__family");
-
-//   setTimeout(function () {
-//     loader01.style.transition = "0.5s ease-in-out";
-//     loader02.style.transition = "0.5s linear";
-//     loader03.style.transition = "0.5s ease-in-out";
-//     loader04.style.transition = "0.5s ease-in-out";
-//     loader05.style.transition = "opacity 0.5s ease-in-out";
-//   }, 1000);
-// });
-
 /// BURGER LOGIC ///
 
 const iconMenu = document.querySelector(".menu__icon");
 const menuBody = document.querySelector(".nav__container");
 const linkTg = document.querySelector(".link__style__tg");
 
-// if (iconMenu) {
 iconMenu.addEventListener("click", function (e) {
   document.body.classList.toggle("__lock");
   iconMenu.classList.toggle("__active");
   menuBody.classList.toggle("__active");
   linkTg.classList.toggle("__active");
-
-  // if (!popUp.classList.contains("hidden")) {
-  //   popUp.classList.toggle("hidden");
-  //   closeOverlay();
-  //   unlock();
-  // }
 });
+
+// CAROUSEL //
+
+const carouselButtons = document.querySelectorAll(".owl-dot");
+
+carouselButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    // Remove "active" class from all buttons
+    carouselButtons.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+
+    // Add "active" class to the clicked button
+    button.classList.add("active");
+  });
+});
+
+const firstButton = document.getElementById("button-1");
+const secondButton = document.getElementById("button-2");
+const thirdButton = document.getElementById("button-3");
+
+const headerChange = document.querySelector(".header-change");
+const headerChangeBot = document.querySelector(".header-change-bot");
+const midChange = document.querySelector(".carousel-container-text");
+const footerChange = document.querySelector(".footer-change");
+
+function changeFirstText() {
+  headerChange.innerHTML = "Я ПРОСТО ХОТІЛА ПОДЯКУВАТИ ВАМ";
+  headerChangeBot.innerHTML =
+    "за роботу, яку ви зробили, і за вашу терпимість.";
+  midChange.innerHTML =
+    "Я просто хотіла подякувати вам за роботу, яку ви зробили, і за вашу терпимість. З самого початку ви розуміли, що потрібно зробити з точки зору закону. У вас було велике серце. Ви також розуміли підхід до мене...";
+  footerChange.innerHTML = "ГАННА";
+}
+
+function changeSecondText() {
+  headerChange.innerHTML = "ДУЖЕ РЕКОМЕНДУЮ";
+  headerChangeBot.innerHTML =
+    "дуже рекомендую їх всім, у кого є питання сімейного права.";
+  midChange.innerHTML =
+    'Я найняла АБ "Каленський та партнери" ще в жовтні через те, що мій колишній чоловік не виплачував аліменти. Після цього аліменти начали приходити на мене і моїх дітей...';
+  footerChange.innerHTML = "ЛІЗА";
+}
+
+function changeThirdText() {
+  headerChange.innerHTML = "МИ ВІДЧУВАЄМО, ЩО ПРО НАС ТУРБУЮТЬСЯ";
+  headerChangeBot.innerHTML = "те, що насправді краще для моїх дітей.";
+  midChange.innerHTML =
+    'Нам порекомендували АБ "Каленський та партнери", зокрема Каленського Владислава, другом після виснажливої трьохрічної битви за дітей. Нарешті я можу бути разом в моїми дітьми...';
+  footerChange.innerHTML = "МАРІЯ";
+}
+
+firstButton.addEventListener("click", changeFirstText);
+secondButton.addEventListener("click", changeSecondText);
+thirdButton.addEventListener("click", changeThirdText);
+// CAROUSEL //
