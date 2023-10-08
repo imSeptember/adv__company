@@ -1140,33 +1140,6 @@
     line-height: 1.6;
   }
 
-  /* .owl-dots {
-    position: absolute;
-    top: 15%;
-    left: 0%;
-    margin: 30px 0 0;
-  }
-
-  label {
-    padding: 10px;
-  }
-
-  .owl-dots button {
-    height: 30px;
-    width: 3px;
-    border-radius: 5px;
-    background: #181818;
-    display: block;
-    margin: 0 0 8px;
-    color: black;
-    border: none;
-    cursor: pointer;
-  } */
-
-  /* .owl-dots button.active {
-    background: #8b0000;
-  } */
-
   .owl-dots {
     position: absolute;
     top: 15%;
@@ -1189,10 +1162,20 @@
     color: black;
     border: none;
     cursor: pointer;
-    transition: background 0.3s ease; /* Add a transition effect for background color */
+    transition: opacity 1.8s;
   }
 
   .owl-dots button.active {
     background: #8b0000;
+  }
+
+  .owl-slide {
+    display: none;
+    transition: opacity 1.8s;
+    height: 290px;
+  }
+
+  .visible {
+    display: block;
   }
 }

@@ -38,7 +38,7 @@ iconMenu.addEventListener("click", function (e) {
   linkTg.classList.toggle("__active");
 });
 
-// CAROUSEL //
+/// CAROUSEL ///
 
 const carouselButtons = document.querySelectorAll(".owl-dot");
 
@@ -58,38 +58,53 @@ const firstButton = document.getElementById("button-1");
 const secondButton = document.getElementById("button-2");
 const thirdButton = document.getElementById("button-3");
 
-const headerChange = document.querySelector(".header-change");
-const headerChangeBot = document.querySelector(".header-change-bot");
-const midChange = document.querySelector(".carousel-container-text");
-const footerChange = document.querySelector(".footer-change");
-
-function changeFirstText() {
-  headerChange.innerHTML = "Я ПРОСТО ХОТІЛА ПОДЯКУВАТИ ВАМ";
-  headerChangeBot.innerHTML =
-    "за роботу, яку ви зробили, і за вашу терпимість.";
-  midChange.innerHTML =
-    "Я просто хотіла подякувати вам за роботу, яку ви зробили, і за вашу терпимість. З самого початку ви розуміли, що потрібно зробити з точки зору закону. У вас було велике серце. Ви також розуміли підхід до мене...";
-  footerChange.innerHTML = "ГАННА";
-}
-
-function changeSecondText() {
-  headerChange.innerHTML = "ДУЖЕ РЕКОМЕНДУЮ";
-  headerChangeBot.innerHTML =
-    "дуже рекомендую їх всім, у кого є питання сімейного права.";
-  midChange.innerHTML =
-    'Я найняла АБ "Каленський та партнери" ще в жовтні через те, що мій колишній чоловік не виплачував аліменти. Після цього аліменти начали приходити на мене і моїх дітей...';
-  footerChange.innerHTML = "ЛІЗА";
-}
-
-function changeThirdText() {
-  headerChange.innerHTML = "МИ ВІДЧУВАЄМО, ЩО ПРО НАС ТУРБУЮТЬСЯ";
-  headerChangeBot.innerHTML = "те, що насправді краще для моїх дітей.";
-  midChange.innerHTML =
-    'Нам порекомендували АБ "Каленський та партнери", зокрема Каленського Владислава, другом після виснажливої трьохрічної битви за дітей. Нарешті я можу бути разом в моїми дітьми...';
-  footerChange.innerHTML = "МАРІЯ";
-}
+const sliders = document.querySelectorAll(".owl-slide");
 
 firstButton.addEventListener("click", changeFirstText);
 secondButton.addEventListener("click", changeSecondText);
 thirdButton.addEventListener("click", changeThirdText);
-// CAROUSEL //
+
+const firstSlide = document.getElementById("firstSlide");
+const secondSlide = document.getElementById("secondSlide");
+const thirdSlide = document.getElementById("thirdSlide");
+
+let flag = firstSlide;
+
+function changeFirstText() {
+  flag.classList.remove("visible");
+  if (!firstSlide.classList.contains("visible")) {
+    firstSlide.classList.add("visible");
+    flag = firstSlide;
+  }
+  toggleVisibility(firstSlide);
+}
+
+function changeSecondText() {
+  flag.classList.remove("visible");
+  if (!secondSlide.classList.contains("visible")) {
+    secondSlide.classList.add("visible");
+    flag = secondSlide;
+  }
+  toggleVisibility(secondSlide);
+}
+
+function changeThirdText() {
+  flag.classList.remove("visible");
+  if (!thirdSlide.classList.contains("visible")) {
+    thirdSlide.classList.add("visible");
+    flag = thirdSlide;
+  }
+  toggleVisibility(thirdSlide);
+}
+
+function toggleVisibility(newFlag) {
+  flag.classList.remove("visible");
+  flag.style.opacity = "0";
+  newFlag.classList.add("visible");
+  setTimeout(() => {
+    newFlag.style.opacity = "1";
+  }, 100);
+  flag = newFlag;
+}
+
+/// CAROUSEL ///
