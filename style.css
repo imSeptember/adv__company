@@ -208,14 +208,6 @@
     font-family: "Open Sans", sans-serif;
   }
 
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-
   .fa-facebook:hover {
     background: #3b5998;
   }
@@ -236,6 +228,10 @@
     border: none;
     width: 90px;
     height: 56px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
   }
 
   .fa-twitter {
@@ -244,6 +240,10 @@
     cursor: pointer;
     width: 90px;
     height: 56px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
   }
   .fa-instagram {
     background: #313638;
@@ -252,6 +252,10 @@
     border: none;
     width: 90px;
     height: 56px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
   }
   .fa-telegram {
     background: #313638;
@@ -260,6 +264,10 @@
     border: none;
     width: 90px;
     height: 56px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
   }
 
   .main__page__services__cantainer {
@@ -839,9 +847,9 @@
   }
 
   .default_btn {
-    position: absolute;
     right: 14px;
     top: 70px;
+    position: absolute;
   }
 
   .default_btn_top {
@@ -1361,5 +1369,174 @@
       color: black;
       box-shadow: 0 0 0 0em #8b0000 inset;
     }
+  }
+
+  .homeAbout-sec {
+    background: url("https://justlawutah.com/wp-content/uploads/2023/05/background_02-1.jpeg")
+      no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    margin-top: 200px;
+  }
+
+  .homeAbout-container {
+    max-width: 1252px;
+    width: 100%;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  .homeAbout-container::before,
+  .homeAbout-container::after {
+    display: table;
+    content: " ";
+  }
+
+  .homeAbout-row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .homeAbout-row::before,
+  .homeAbout-row::after {
+    display: table;
+    content: " ";
+  }
+  .col-md-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .sec-wrap {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .sec-wrap-heading {
+    margin: 0 0 30px;
+  }
+
+  .fa-graduation-cap {
+    display: block;
+  }
+
+  .homeAbout-sec .sec-wrap .fa {
+    font-size: 70px;
+    margin: 0 0 10px;
+  }
+
+  .heading-h5 {
+    margin: 0 0 40px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .homeAbout-heading h2 {
+    position: relative;
+    font-size: 45px;
+    z-index: 1;
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: "Playfair Display";
+  }
+
+  .homeAbout-heading span {
+    display: block;
+  }
+
+  .homeAbout-heading h2::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #8b0000;
+    left: 50%;
+    top: 0%;
+    z-index: -1;
+    transform: translate(-50%, -30%);
+  }
+
+  .sec-wrap p {
+    line-height: 28px;
+    font-size: 16px;
+    margin: 0 0 30px;
+    font-family: "Lato";
+  }
+
+  .default_btn_homeAbout a {
+    background: none;
+    padding-right: 70px;
+    color: #8c7156;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: "Lato";
+    transition: 0.4s 0.3s ease-in-out;
+    font-weight: 500;
+    position: relative;
+    padding-left: 70px;
+    &:hover {
+      &:before {
+        width: 0;
+      }
+      &:after {
+        width: 0;
+      }
+    }
+  }
+
+  .default_btn_homeAbout a::before {
+    position: absolute;
+    content: "";
+    max-width: 60px;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 10px;
+    background: #8c7156;
+    display: block;
+    pointer-events: none;
+    transform-origin: right;
+    transition: all 0.3s ease-in-out;
+    margin-right: 5px;
+  }
+
+  .default_btn_homeAbout a::after {
+    position: absolute;
+    content: "";
+    max-width: 60px;
+    width: 100%;
+    height: 2px;
+    right: 0;
+    top: 10px;
+    background: #8c7156;
+    display: block;
+    pointer-events: none;
+    transform-origin: right;
+    transition: all 0.3s ease-in-out;
+    margin-right: 5px;
+  }
+
+  .homeAbout-heading {
+    margin: 0 0 30px;
+  }
+
+  .homeAbout-row::after {
+    clear: both;
   }
 }
