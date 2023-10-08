@@ -974,7 +974,7 @@
     padding-right: 0;
     width: 55%;
     padding-left: 0%;
-    padding: 170px 0 70px 0;
+    padding-top: 170px;
     position: relative;
     z-index: 2;
     text-align: right;
@@ -1005,7 +1005,6 @@
     display: flex;
     margin-left: -100px;
     margin-top: 0px;
-    margin-bottom: 70px;
     align-items: center;
     padding-left: 100px;
   }
@@ -1177,5 +1176,190 @@
 
   .visible {
     display: block;
+  }
+
+  .contact-sec {
+    position: relative;
+  }
+
+  .contact-img-box {
+    height: 549px;
+    margin-left: 0;
+    width: 60%;
+    margin-top: 0;
+    margin-right: -100px;
+    display: flex;
+  }
+
+  .contact-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+  }
+
+  .contact-img-text {
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    padding: 100px 0px 0px 0;
+  }
+
+  .inquiries_form {
+    padding: 180px 50px 50px;
+    margin: 0;
+    position: relative;
+    background: #fff;
+    text-align: left;
+  }
+
+  .pe-7s-note {
+    font-size: 64px;
+    color: #fff;
+  }
+
+  .contact-xicon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    background: #8b0000;
+    align-items: center;
+    text-align: left;
+  }
+
+  .contact-area-heading {
+    margin: 0 0 30px;
+  }
+
+  .h5 {
+    color: #8b0000;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .contact-area-heading p {
+    font-size: 23px;
+    font-family: "Playfair Display";
+    color: #181818;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0 0 20px;
+  }
+
+  .contact-form {
+    text-align: left;
+  }
+  .form-grid {
+    grid-column-gap: 2%;
+    grid-row-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+  }
+
+  .grid-field {
+    grid-column: span 6;
+    min-width: 0;
+  }
+
+  .grid-field-large {
+    grid-column: span 12;
+    min-width: 0;
+  }
+
+  .gfield-label {
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    border: 0;
+  }
+  .gfield_required {
+    color: #c02b0a;
+    display: inline-block;
+    font-size: 13.008px;
+    padding-left: 0.125em;
+  }
+
+  .gfield_required_text {
+    font-style: italic;
+    font-weight: 400;
+    color: #c02b0a;
+    font-size: 13.008px;
+    padding-left: 0.125em;
+  }
+
+  .large {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8px;
+    height: 54px;
+    color: #181818;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: none;
+    margin: 0 0 5px;
+  }
+  .textarea {
+    height: 96px;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8px;
+    color: #181818;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: none;
+    margin: 0 0 5px;
+    display: inline-block;
+    resize: none;
+  }
+
+  .gform_footer {
+    margin: 6px 0 0;
+    padding: 16px 0;
+    display: flex;
+  }
+
+  .gform_button {
+    color: #fff;
+    box-shadow: 0 0 0 3em #8b0000 inset;
+    padding: 1em 2em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #8b0000;
+    width: auto;
+    margin: auto;
+    align-self: flex-end;
+    cursor: pointer;
+    &:hover {
+      color: black;
+      box-shadow: 0 0 0 0em #8b0000 inset;
+    }
   }
 }
