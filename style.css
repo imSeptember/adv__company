@@ -584,15 +584,6 @@
     flex-direction: column;
   }
 
-  .text__mrg__top {
-    margin-top: 30px;
-  }
-
-  #text__mrg__top,
-  #text__mrg__top02 {
-    margin-top: 30px;
-  }
-
   .btn__main__page:hover {
     background-color: #8b0000;
   }
@@ -1563,5 +1554,49 @@
     list-style-type: disc;
     line-height: 1.6;
     margin: 10px 0 20px 20px;
+  }
+
+  .tel__number {
+    text-decoration: none;
+    color: #8b0000;
+  }
+
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .col-md-4 ul {
+    margin: 0 0 20px;
+  }
+
+  .col-md-4 ul li {
+    margin: 0 0 10px;
+    position: relative;
+    list-style: none;
+  }
+
+  .col-md-4 span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .col-md-4 .h4 a {
+    font-size: 30px;
+    font-family: "Bellefair";
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .white__anchor {
+    color: #fff;
+  }
+
+  .fa-phone,
+  .fa-location-arrow {
+    color: #8b0000;
   }
 }

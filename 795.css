@@ -614,14 +614,6 @@
     display: flex;
     flex-direction: column;
   }
-  .text__mrg__top {
-    margin-top: 30px;
-  }
-
-  #text__mrg__top,
-  #text__mrg__top02 {
-    margin-top: 30px;
-  }
 
   .btn__main__page:hover {
     background-color: #8b0000;

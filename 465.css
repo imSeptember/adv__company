@@ -599,10 +599,6 @@
     width: 0;
   }
 
-  .text__mrg__top {
-    margin-top: 30px;
-  }
-
   .discount__family {
     display: flex;
     justify-content: center;
@@ -610,11 +606,6 @@
 
   .discount__family__img {
     width: 370px;
-  }
-
-  #text__mrg__top,
-  #text__mrg__top02 {
-    margin-top: 30px;
   }
 
   .btn__main__page:hover {
