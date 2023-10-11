@@ -108,3 +108,18 @@ function toggleVisibility(newFlag) {
 }
 
 /// CAROUSEL ///
+
+/// HIDE TEXT ///
+
+const buttonHide = document.querySelector(".frm_btn");
+const manualHide = document.querySelector(".manual__hide");
+
+buttonHide.addEventListener("click", function hideText() {
+  buttonHide.style.display = "none";
+  manualHide.style.display = "block";
+  setTimeout(() => {
+    manualHide.style.opacity = "1";
+  }, 100);
+});
+
+/// HIDE TEXT  ///
