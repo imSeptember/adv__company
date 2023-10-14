@@ -756,6 +756,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0 8px;
+    flex-wrap: wrap;
   }
 
   .women__child {
@@ -785,17 +786,9 @@
 
   .women__child__box__img {
     /* width: 61.8%; */
-    width: 90%;
+    width: 100%;
     display: flex;
-    margin-left: -100px;
-  }
-
-  .women__child__box {
-    display: flex;
-    padding: 0 8px;
-    max-width: 1252px;
-    margin-left: auto;
-    margin-right: auto;
+    /* height: 350px; */
   }
 
   .discount__family {
@@ -818,11 +811,10 @@
   }
   .women__child__text {
     background: #fff;
-    padding: 110px 50px 110px 0;
+    padding: 110px 50px 110px 50px;
     position: relative;
     z-index: 2;
-    width: 70%;
-    padding-left: 5%;
+    width: 100%;
   }
 
   .women__child__text h4 {
@@ -895,11 +887,11 @@
   }
 
   .box-col-content {
-    width: 50%;
+    width: 100%;
     position: relative;
     min-height: 1px;
     padding-left: 8px;
-    padding-right: 15px;
+    padding-right: 8px;
   }
 
   .icon-row {
@@ -933,7 +925,7 @@
   }
 
   .xicon-top {
-    z-index: 1;
+    /* z-index: 1;
     padding: 20px;
     background: #8b0000;
     align-items: center;
@@ -944,7 +936,17 @@
     width: 100px;
     height: 100px;
     display: flex;
+    padding: 20px; */
+    width: 100px;
+    height: 100px;
+    display: flex;
     padding: 20px;
+    background: #8b0000;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto 50px;
+    position: relative;
   }
 
   .icons {
@@ -1070,6 +1072,7 @@
     width: 100%;
     margin: auto;
     padding: 0px 8px 0px 8px;
+    text-align: center;
   }
 
   .container-cases-row-heading p {
@@ -1096,6 +1099,7 @@
     display: flex;
     margin: 0 0 30px;
     width: max-content;
+    margin: auto;
   }
 
   .pe-7s-call {
@@ -1117,47 +1121,37 @@
 
   .sec-row {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .sec-row-text {
     background: none;
     padding-bottom: 0;
     padding-right: 0;
-    width: 55%;
+    width: 100%;
     padding-left: 0%;
-    padding-top: 170px;
+    padding-top: 70px;
     position: relative;
     z-index: 2;
-    text-align: right;
+    text-align: center;
   }
 
   .testimonial_box {
     text-align: right;
     border-top: 0;
-    padding: 150px 0px 100px 0;
+    padding: 100px 40px 100px 40px;
     position: relative;
     background: #fff;
-    padding-left: 10%;
-  }
-
-  .counter-box {
-    background: #121212;
-    width: 50%;
-    display: flex;
-    margin-left: -100px;
-    margin-top: 0px;
-    align-items: center;
-    padding-left: 100px;
   }
 
   .sec-row-counter-box {
+    width: 100%;
+    margin: 0;
+    padding: 0;
     background: #121212;
-    width: 55%;
     display: flex;
-    margin-left: -100px;
-    margin-top: 0px;
     align-items: center;
-    padding-left: 100px;
   }
 
   .xicon-bot {
@@ -1167,9 +1161,10 @@
     padding: 20px;
     background: #8b0000;
     align-items: center;
-    position: absolute;
-    top: 0px;
+    left: 0;
     right: 0;
+    margin: 0 auto 50px;
+    position: relative;
   }
 
   .xicon-bot img {
@@ -1244,13 +1239,14 @@
   }
 
   .owl-carousel {
+    position: relative;
     text-align: right;
     width: 100%;
     z-index: 1;
   }
 
   .owl-carousel-container {
-    padding-left: 50px;
+    padding-left: 20px;
     padding-right: 20px;
     position: relative;
   }
@@ -1275,7 +1271,7 @@
   }
 
   .client-id p {
-    text-align: right;
+    text-align: center;
   }
 
   .carousel-container-text {
@@ -1283,7 +1279,7 @@
     color: #1a243f;
     margin: 0 auto 40px;
     font-size: 16px;
-    width: 100%;
+    max-width: 95%;
     font-weight: normal;
     position: relative;
     text-align: justify;
@@ -1291,9 +1287,6 @@
   }
 
   .owl-dots {
-    position: relative;
-    top: 0;
-    left: 0;
     text-align: center;
     margin: 30px 0 0;
   }
@@ -1301,19 +1294,17 @@
   .owl-dots label {
     padding: 5px;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
   }
 
   .owl-dots button {
-    height: 30px;
-    width: 3px;
+    height: 3px;
+    width: 30px;
     border-radius: 5px;
-    background: #181818;
-    display: block;
     color: black;
-    border: none;
     cursor: pointer;
     transition: opacity 1.8s;
+    display: inline-block;
   }
 
   .owl-dots button.active {
@@ -1323,7 +1314,8 @@
   .owl-slide {
     display: none;
     transition: opacity 1.8s;
-    height: 290px;
+    /* height: 290px; */
+    text-align: center;
   }
 
   .visible {
@@ -1337,9 +1329,7 @@
   .contact-img-box {
     height: 549px;
     margin-left: 0;
-    width: 60%;
     margin-top: 0;
-    margin-right: -100px;
     display: flex;
   }
 
@@ -1354,7 +1344,7 @@
   .contact-img-text {
     position: relative;
     z-index: 2;
-    width: 70%;
+    width: 100%;
     padding: 100px 0px 0px 0;
   }
 
@@ -1372,18 +1362,16 @@
   }
 
   .contact-xicon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: auto;
-    justify-content: center;
     width: 100px;
     height: 100px;
     display: flex;
     padding: 20px;
     background: #8b0000;
     align-items: center;
-    text-align: left;
+    left: 0;
+    right: 0;
+    margin: 0 auto 50px;
+    position: relative;
   }
 
   .contact-area-heading {

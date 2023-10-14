@@ -985,16 +985,6 @@
     padding-left: 10%;
   }
 
-  .counter-box {
-    background: #121212;
-    width: 50%;
-    display: flex;
-    margin-left: -100px;
-    margin-top: 0px;
-    align-items: center;
-    padding-left: 100px;
-  }
-
   .sec-row-counter-box {
     background: #121212;
     width: 55%;

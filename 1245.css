@@ -1008,16 +1008,6 @@
     padding-left: 10%;
   }
 
-  .counter-box {
-    background: #121212;
-    width: 50%;
-    display: flex;
-    margin-left: -100px;
-    margin-top: 0px;
-    align-items: center;
-    padding-left: 100px;
-  }
-
   .sec-row-counter-box {
     background: #121212;
     width: 55%;
@@ -1143,7 +1133,7 @@
   }
 
   .client-id p {
-    text-align: right;
+    text-align: center;
   }
 
   .carousel-container-text {
@@ -1190,7 +1180,7 @@
   .owl-slide {
     display: none;
     transition: opacity 1.8s;
-    height: 290px;
+    /* height: 290px; */
   }
 
   .visible {
