@@ -1464,8 +1464,7 @@
   }
 
   .homeAbout-sec {
-    background: url("https://justlawutah.com/wp-content/uploads/2023/05/background_02-1.jpeg")
-      no-repeat;
+    background: url("IMG/media/background_02-1.jpeg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
