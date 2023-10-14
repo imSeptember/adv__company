@@ -1306,11 +1306,10 @@
     position: relative;
     z-index: 2;
     width: 100%;
-    padding: 100px 0px 0px 0;
   }
 
   .inquiries_form {
-    padding: 180px 50px 50px;
+    padding: 80px 50px 50px;
     margin: 0;
     position: relative;
     background: #fff;
@@ -1331,7 +1330,7 @@
     align-items: center;
     left: 0;
     right: 0;
-    margin: 0 auto 50px;
+    /* margin: 0 auto 50px; */
     position: relative;
   }
 
