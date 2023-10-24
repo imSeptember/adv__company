@@ -517,8 +517,8 @@
     max-width: 1252px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 170px;
-    margin-bottom: 200px;
+    margin-top: 70px;
+    margin-bottom: 100px;
   }
 
   .family__text h4 {
@@ -770,7 +770,7 @@
   }
 
   .welcome-sec {
-    margin-top: 193px;
+    margin-top: 93px;
     position: relative;
   }
 
@@ -810,7 +810,7 @@
   }
   .women__child__text {
     background: #fff;
-    padding: 110px 50px 110px 50px;
+    padding: 110px 25px 110px 25px;
     position: relative;
     z-index: 2;
     width: 100%;
@@ -834,7 +834,7 @@
   .practice-area {
     position: relative;
     padding-top: 0;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .practice-box {
@@ -909,7 +909,7 @@
     font-weight: 500;
     line-height: 1.5;
     font-family: "Bellefair";
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .xicon {
@@ -1010,24 +1010,25 @@
 
   .default_btn_top a {
     background: none;
-    padding-left: 70px;
+    padding-left: 50px;
     color: #8b0000;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     font-family: "Lato";
     transition: 0.4s 0.3s ease-in-out;
     font-weight: 500;
     position: relative;
+    font-size: 14px;
   }
 
   .default_btn_top a::before {
     position: absolute;
     content: "";
     max-width: 60px;
-    width: 100%;
+    width: 16%;
     height: 2px;
     left: 0;
-    top: 8px;
+    top: 6px;
     background: #8b0000;
     display: block;
     pointer-events: none;
@@ -1087,7 +1088,7 @@
 
   .container-cases-row-heading h4 {
     color: #353535;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     margin: 0 0 20px;
     text-transform: uppercase;
@@ -1512,7 +1513,7 @@
     text-align: center;
     color: #fff;
     padding: 100px 0;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .homeAbout-container {
@@ -1611,7 +1612,7 @@
 
   .default_btn_homeAbout a {
     background: none;
-    padding-right: 70px;
+    padding-right: 35px;
     color: #8c7156;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -1620,7 +1621,7 @@
     transition: 0.4s 0.3s ease-in-out;
     font-weight: 500;
     position: relative;
-    padding-left: 70px;
+    padding-left: 35px;
     &:hover {
       &:before {
         width: 0;
@@ -1634,8 +1635,8 @@
   .default_btn_homeAbout a::before {
     position: absolute;
     content: "";
-    max-width: 60px;
-    width: 100%;
+    max-width: 40px;
+    width: 10%;
     height: 2px;
     left: 0;
     top: 10px;
@@ -1650,8 +1651,8 @@
   .default_btn_homeAbout a::after {
     position: absolute;
     content: "";
-    max-width: 60px;
-    width: 100%;
+    max-width: 40px;
+    width: 10%;
     height: 2px;
     right: 0;
     top: 10px;
