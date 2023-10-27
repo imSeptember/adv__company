@@ -109,6 +109,77 @@ function toggleVisibility(newFlag) {
 
 /// CAROUSEL ///
 
+/// NEW CAROUSEL ///
+
+const carouselButtonsDivorce = document.querySelectorAll(".owl-dot-divorce");
+
+carouselButtonsDivorce.forEach((button) => {
+  button.addEventListener("click", () => {
+    // Remove "active" class from all buttons
+    carouselButtonsDivorce.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+
+    // Add "active" class to the clicked button
+    button.classList.add("active");
+  });
+});
+
+const firstButtonDivorce = document.getElementById("button-1-divorce");
+const secondButtonDivorce = document.getElementById("button-2-divorce");
+const thirdButtonDivorce = document.getElementById("button-3-divorce");
+
+const slidersDivorce = document.querySelectorAll(".owl-slide-divorce");
+
+firstButtonDivorce.addEventListener("click", changeFirstTextDivorce);
+secondButtonDivorce.addEventListener("click", changeSecondTextDivorce);
+thirdButtonDivorce.addEventListener("click", changeThirdTextDivorce);
+
+const firstSlideDivorce = document.getElementById("firstSlide-divorce");
+const secondSlideDivorce = document.getElementById("secondSlide-divorce");
+const thirdSlideDivorce = document.getElementById("thirdSlide-divorce");
+
+let flagDivorce = firstSlideDivorce;
+
+function changeFirstTextDivorce() {
+  flagDivorce.classList.remove("visible");
+  if (!firstSlideDivorce.classList.contains("visible")) {
+    firstSlideDivorce.classList.add("visible");
+    flagDivorce = firstSlideDivorce;
+  }
+  toggleVisibility(firstSlideDivorce);
+}
+
+function changeSecondTextDivorce() {
+  flagDivorce.classList.remove("visible");
+  if (!secondSlideDivorce.classList.contains("visible")) {
+    secondSlideDivorce.classList.add("visible");
+    flagDivorce = secondSlideDivorce;
+  }
+  toggleVisibility(secondSlideDivorce);
+}
+
+function changeThirdTextDivorce() {
+  flagDivorce.classList.remove("visible");
+  if (!thirdSlideDivorce.classList.contains("visible")) {
+    thirdSlideDivorce.classList.add("visible");
+    flagDivorce = thirdSlideDivorce;
+  }
+  toggleVisibility(thirdSlideDivorce);
+}
+
+function toggleVisibility(newFlagDivorce) {
+  flagDivorce.classList.remove("visible");
+  flagDivorce.style.opacity = "0";
+  newFlagDivorce.classList.add("visible");
+  setTimeout(() => {
+    newFlagDivorce.style.opacity = "1";
+  }, 100);
+  flagDivorce = newFlagDivorce;
+}
+
+/// NEW CAROUSEL ///
+
 /// HIDE TEXT ///
 
 const buttonHide = document.querySelector(".frm_btn");
