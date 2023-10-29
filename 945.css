@@ -531,6 +531,7 @@
     margin-right: auto;
     margin-top: 170px;
     margin-bottom: 200px;
+    text-align: justify;
   }
 
   .family__text h4 {
@@ -2251,12 +2252,11 @@
   .text-left {
     padding-top: 125px;
     background: #fff;
-    padding: 170px 50px 50px 0;
+    padding: 170px 50px;
     position: relative;
     z-index: 2;
     width: 100%;
     text-align: right;
-    padding-left: 5%;
   }
 
   .img-box-culture {
