@@ -113,6 +113,11 @@
     display: none;
   }
 
+  .link__style__none {
+    color: #181818;
+    text-decoration: none;
+  }
+
   .main__page__kalenskiy {
     max-width: 1252px;
     display: flex;
@@ -505,7 +510,6 @@
 
   .breadcrumbs {
     list-style: none;
-    display: flex;
     padding: 25px 8px 25px 8px;
     max-width: 1252px;
     display: flex;
@@ -1712,7 +1716,7 @@
     margin-right: 1em;
     opacity: 1;
     visibility: visible;
-    background: #8c7156;
+    background: #8b0000;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1729,7 +1733,7 @@
     opacity: 1;
     font-size: 14px;
     visibility: hidden;
-    color: #8c7156;
+    color: #8b0000;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1740,8 +1744,8 @@
   }
 
   .practice-sec .practicewrap .practice-list ul li a:hover {
-    color: #8c7156;
-    border-color: #8c7156;
+    color: #8b0000;
+    border-color: #8b0000;
     padding-left: 0;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1785,7 +1789,7 @@
     height: 100px;
     display: flex;
     padding: 20px;
-    background: #8c7156;
+    background: #8b0000;
     align-items: center;
   }
 
@@ -2047,7 +2051,7 @@
     height: 100px;
     display: flex;
     padding: 20px;
-    background: #8c7156;
+    background: #8b0000;
     align-items: center;
   }
 
