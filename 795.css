@@ -1511,7 +1511,6 @@
     text-align: center;
     color: #fff;
     padding: 100px 0;
-    margin-top: 100px;
   }
 
   .homeAbout-container {
@@ -1778,5 +1777,592 @@
       margin: 0 180px 5px 0;
       list-style: none;
     }
+  }
+
+  /* /////// DIVORCE //////// */
+
+  .text-banner {
+    position: relative;
+    padding: 170px 0 50px;
+  }
+
+  .text-banner-container {
+    width: 100%;
+    margin: auto;
+    padding: 0 8px;
+    max-width: 1252px;
+  }
+
+  .text-banner-row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .text-banner-col-md-12 {
+    width: 100%;
+  }
+
+  .text-right {
+    margin: 0 0 30px;
+    text-align: center;
+  }
+
+  .text-banner h2 {
+    color: #1a243f;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: "Bellefair";
+    font-weight: 400;
+  }
+
+  .text-right-frm_btn {
+    padding-top: 20px;
+  }
+
+  .text-right-btn__main__page {
+    background: #1a243f;
+    padding: 11px 17px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .breadcrumbs__container {
+    background: #8b0000;
+  }
+
+  .practice-sec {
+    position: relative;
+    padding-top: 100px;
+    margin-top: 16px;
+  }
+
+  .practicewrap {
+    margin-right: -100px;
+    margin-left: 0;
+    margin-top: -100px;
+    width: 61.8%;
+    display: flex;
+    background: #353535;
+    height: auto;
+  }
+
+  .practice-list {
+    padding-top: 80px;
+    padding-left: 6%;
+    width: 100%;
+    padding-right: 6%;
+  }
+
+  .practice-list h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    line-height: 1.1;
+    font-family: "Bellefair";
+  }
+
+  .practice-list ul {
+    margin-bottom: 30px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .practice-list ul li {
+    position: relative;
+    margin: 0 0 10px;
+    font-family: "Lato";
+    font-weight: normal;
+    color: #181818;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .practice-list ul li a {
+    border-bottom: 3px solid transparent;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 24px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .practice-list ul li a:before {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    width: 1em;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1em;
+    opacity: 1;
+    visibility: visible;
+    background: #8c7156;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .practice-list ul li a:after {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1em;
+    opacity: 1;
+    font-size: 14px;
+    visibility: hidden;
+    color: #8c7156;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    font-weight: 900;
+  }
+
+  .practice-sec .practicewrap .practice-list ul li a:hover {
+    color: #8c7156;
+    border-color: #8c7156;
+    padding-left: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .practice-sec .practicewrap .practice-list ul li a:hover:before {
+    width: 0;
+    margin: 0;
+  }
+  .practice-sec .practicewrap .practice-list ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .practice-sec-xicon {
+    left: 0;
+    right: auto;
+    position: absolute;
+    top: 0px;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    background: #8c7156;
+    align-items: center;
+  }
+
+  .pe-7s-id {
+    color: #fff;
+    font-size: 64px;
+  }
+
+  .practice-sec-heading {
+    margin: 0 0 30px;
+    font-family: "Lato";
+    font-weight: normal;
+    color: #181818;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .practice-sec-heading h1 {
+    font-size: 36px;
+    color: #1a243f;
+    font-weight: 400;
+    margin: 0 0 20px;
+    line-height: 1.1;
+    font-family: "Bellefair";
+    text-transform: capitalize;
+  }
+
+  .practice-sec-text p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #181818;
+    margin: 0 0 30px;
+    font-family: "Lato";
+  }
+
+  .practice-sec-text h2 {
+    text-transform: capitalize;
+    color: #353535;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    line-height: 1.1;
+    font-family: "Bellefair";
+    text-align: left;
+  }
+
+  .practice-sec-text ul {
+    list-style-type: disc;
+    line-height: 1.6;
+    margin: 10px 0 20px 20px;
+  }
+
+  .alignnone {
+    width: 100%;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+  }
+
+  /* ///////////////////// ? */
+
+  .owl-carousel-divorce {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .owl-carousel-container-divorce {
+    padding-right: 20px;
+    position: relative;
+  }
+
+  .owl-carousel-container-divorce span {
+    color: #8b0000;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .owl-carousel-container-divorce h4 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+
+  .client-id-divorce p {
+    color: #fff;
+  }
+
+  .carousel-container-text-divorce {
+    font-family: "Lato";
+    color: #fff;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: normal;
+    position: relative;
+    text-align: justify;
+    line-height: 1.6;
+  }
+
+  .owl-dots-divorce {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .owl-dots-divorce label {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+  }
+
+  .owl-dots-divorce button {
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: #181818;
+    display: block;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: opacity 1.8s;
+  }
+
+  .owl-dots-divorce button.active {
+    background: #8b0000;
+  }
+
+  .owl-slide-divorce {
+    display: none;
+    transition: opacity 1.8s;
+    height: 290px;
+  }
+
+  .owl-carousel-divorce-h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding-top: 40px;
+    line-height: 1.1;
+    font-family: "Bellefair";
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .images {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .text__borders {
+    overflow: hidden;
+    width: 100%;
+    align-self: start;
+    margin-top: 1rem;
+  }
+
+  .text__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 500%;
+    transition: 500ms;
+  }
+
+  .text {
+    width: 20%;
+    margin: 0;
+    padding: 1px;
+  }
+
+  .text p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 0 30px;
+    font-family: "Lato";
+  }
+
+  .text h5 {
+    color: #8b0000;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .left {
+    left: 0px;
+  }
+
+  .right {
+    left: 50px;
+    right: 0;
+  }
+
+  .carousel-control {
+    top: auto;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ececec;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+
+  .carousel-control .fa {
+    color: #fff;
+  }
+
+  .controlers-container {
+    margin-top: 20px;
+  }
+
+  .textImg-sec {
+    position: relative;
+    text-align: left;
+  }
+
+  .xicon-text-left {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    background: #8c7156;
+    align-items: center;
+  }
+
+  .pe-7s-culture {
+    color: #fff;
+    font-size: 64px;
+  }
+
+  .text-left-bot {
+    margin: 0 0 30px;
+    text-align: left;
+  }
+
+  .img-box-culture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    border: 0;
+  }
+
+  .text-left h2 {
+    text-transform: capitalize;
+    margin: 0;
+    color: #353535;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: "Bellefair";
+  }
+
+  .text-left p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #181818;
+    margin: 0 0 30px;
+    font-family: "Lato";
+  }
+
+  .text-left a {
+    color: #8b0000;
+  }
+
+  .practicewrap {
+    margin-right: -100px;
+    margin-left: 0;
+    margin-top: -100px;
+    width: 100%;
+    display: flex;
+    background: #353535;
+    height: auto;
+  }
+
+  .practice-sec-text {
+    text-align: justify;
+    padding-top: 125px;
+    background: #fff;
+    padding: 170px 20px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  .practice-sec-xicon {
+    left: 0;
+    right: 0;
+    margin: 0 auto 50px;
+    position: relative;
+    top: 0px;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    background: #8c7156;
+    align-items: center;
+  }
+
+  .practice-sec-heading {
+    margin: 0 0 30px;
+    font-family: "Lato";
+    font-weight: normal;
+    color: #181818;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .controlers-container {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .text-left {
+    padding-top: 125px;
+    background: #fff;
+    padding: 170px 50px 50px 0;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    text-align: right;
+    padding-left: 5%;
+  }
+
+  .img-box-culture {
+    width: 100%;
+    display: flex;
+    text-align: left;
+  }
+
+  .smaller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .xicon-text-left {
+    left: 0;
+    right: 0;
+    margin: 0 auto 50px;
+    position: relative;
+    top: 0px;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    background: #8c7156;
+    align-items: center;
+  }
+
+  .textImg-sec {
+    position: relative;
+    text-align: left;
+  }
+
+  .sec-row {
+    display: flex;
+  }
+
+  .block {
+    display: block;
   }
 }
