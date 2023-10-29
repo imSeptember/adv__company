@@ -514,6 +514,10 @@
   }
 
   .breadcrumbs__row {
+    color: #fff;
+  }
+
+  .breadcrumbs__row__main {
     color: #a6a6a6;
   }
 
