@@ -1064,6 +1064,10 @@
     position: relative;
   }
 
+  .icon-row span a:hover {
+    color: #8c7156;
+  }
+
   .default_btn a::before {
     position: absolute;
     content: "";

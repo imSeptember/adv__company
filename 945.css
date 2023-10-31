@@ -908,6 +908,10 @@
     justify-content: center;
   }
 
+  .icon-row span a:hover {
+    color: #8c7156;
+  }
+
   .xicon-top {
     z-index: 1;
     padding: 20px;

@@ -2408,6 +2408,10 @@
     align-items: center;
   }
 
+  .icon-row span a:hover {
+    color: #8c7156;
+  }
+
   .textImg-sec {
     position: relative;
     text-align: left;
