@@ -594,6 +594,10 @@
     flex-direction: column;
   }
 
+  .text-right-btn__main__page:hover {
+    background-color: #8c7156;
+  }
+
   .btn__main__page:hover {
     background-color: #8c7156;
   }
@@ -2200,5 +2204,26 @@
 
   .block {
     display: block;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-main);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8c7156;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8c7156;
   }
 }
