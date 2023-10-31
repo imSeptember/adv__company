@@ -907,6 +907,15 @@
     margin-right: 5px;
   }
 
+  .default_btn a:hover:before {
+    width: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
   .women__child__small {
     display: none;
   }
@@ -960,6 +969,11 @@
     letter-spacing: 2px;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
+  }
+
+  .container-cases-row-call a:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 3em #8c7156 inset;
   }
 
   .sec-row {
