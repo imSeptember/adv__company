@@ -197,7 +197,7 @@
   }
 
   .box__wrapper {
-    background-color: #8b0000;
+    background-color: #8c7156;
     height: 407px;
     width: 339px;
     position: absolute;
@@ -583,7 +583,7 @@
   .btn__more {
     background: none;
     padding-left: 70px;
-    color: #8b0000;
+    color: #8c7156;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 17px;
@@ -602,7 +602,7 @@
     height: 2px;
     left: 0;
     top: 10px;
-    background: #8b0000;
+    background: #8c7156;
     display: block;
     pointer-events: none;
     transform-origin: right;
@@ -624,7 +624,7 @@
   }
 
   .btn__main__page:hover {
-    background-color: #8b0000;
+    background-color: #8c7156;
   }
 
   .discount__zsy {
@@ -638,7 +638,7 @@
   .btn__main__page__discount {
     margin-top: 80px;
     margin-left: 14px;
-    background: #8b0000;
+    background: #8c7156;
     padding: 16px 24px;
     font-weight: bold;
     font-size: 14px;
@@ -735,7 +735,7 @@
 
   .small__btns {
     height: 40px;
-    background-color: #8b0000;
+    background-color: #8c7156;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -857,7 +857,7 @@
 
   .box-row p {
     margin: 0 0 20px;
-    color: #8b0000;
+    color: #8c7156;
     font-family: "Lato";
     font-size: 16px;
     font-weight: 600;
@@ -923,7 +923,7 @@
     z-index: 1;
     display: flex;
     padding: 20px;
-    background: #8b0000;
+    background: #8c7156;
     align-items: center;
     justify-content: center;
   }
@@ -931,7 +931,7 @@
   .xicon-top {
     /* z-index: 1;
     padding: 20px;
-    background: #8b0000;
+    background: #8c7156;
     align-items: center;
     position: absolute;
     top: 0px;
@@ -945,7 +945,7 @@
     height: 100px;
     display: flex;
     padding: 20px;
-    background: #8b0000;
+    background: #8c7156;
     align-items: center;
     left: 0;
     right: 0;
@@ -1016,7 +1016,7 @@
   .default_btn_top a {
     background: none;
     padding-left: 50px;
-    color: #8b0000;
+    color: #8c7156;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: "Lato";
@@ -1034,7 +1034,7 @@
     height: 2px;
     left: 0;
     top: 6px;
-    background: #8b0000;
+    background: #8c7156;
     display: block;
     pointer-events: none;
     transform-origin: right;
@@ -1045,7 +1045,7 @@
   .default_btn a {
     background: none;
     padding-left: 70px;
-    color: #8b0000;
+    color: #8c7156;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 17px;
@@ -1063,7 +1063,7 @@
     height: 2px;
     left: 0;
     top: 8px;
-    background: #8b0000;
+    background: #8c7156;
     display: block;
     pointer-events: none;
     transform-origin: right;
@@ -1082,7 +1082,7 @@
   }
 
   .container-cases-row-heading p {
-    color: #8b0000;
+    color: #8c7156;
     font-family: "Lato";
     font-size: 16px;
     font-weight: 600;
@@ -1111,14 +1111,14 @@
   .pe-7s-call {
     color: #ffffff;
     padding: 0.7em 0.8em;
-    box-shadow: 0 0 0 3em #8b0000 inset;
+    box-shadow: 0 0 0 3em #8c7156 inset;
     background-color: transparent;
     font-size: 30px;
   }
 
   .container-cases-row-call a {
     color: #353535;
-    box-shadow: 0 0 0 1px #8b0000 inset;
+    box-shadow: 0 0 0 1px #8c7156 inset;
     padding: 1.7em 1.7em;
     letter-spacing: 2px;
     font-weight: 600;
@@ -1165,7 +1165,7 @@
     height: 100px;
     display: flex;
     padding: 20px;
-    background: #8b0000;
+    background: #8c7156;
     align-items: center;
     left: 0;
     right: 0;
@@ -1222,7 +1222,7 @@
   }
 
   .num-box-icon span {
-    color: #8b0000;
+    color: #8c7156;
     font-size: 70px;
   }
 
@@ -1258,7 +1258,7 @@
   }
 
   .owl-carousel-container span {
-    color: #8b0000;
+    color: #8c7156;
     font-family: "Lato";
     font-size: 16px;
     font-weight: bold;
@@ -1314,7 +1314,7 @@
   }
 
   .owl-dots button.active {
-    background: #8b0000;
+    background: #8c7156;
   }
 
   .owl-slide {
@@ -1371,7 +1371,7 @@
     height: 100px;
     display: flex;
     padding: 20px;
-    background: #8b0000;
+    background: #8c7156;
     align-items: center;
     left: 0;
     right: 0;
@@ -1384,7 +1384,7 @@
   }
 
   .h5 {
-    color: #8b0000;
+    color: #8c7156;
     font-family: "Lato";
     font-size: 16px;
     font-weight: 600;
@@ -1491,21 +1491,21 @@
 
   .gform_button {
     color: #fff;
-    box-shadow: 0 0 0 3em #8b0000 inset;
+    box-shadow: 0 0 0 3em #8c7156 inset;
     padding: 1em 2em;
     letter-spacing: 2px;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
     display: inline-block;
-    border: 1px solid #8b0000;
+    border: 1px solid #8c7156;
     width: auto;
     margin: auto;
     align-self: flex-end;
     cursor: pointer;
     &:hover {
       color: black;
-      box-shadow: 0 0 0 0em #8b0000 inset;
+      box-shadow: 0 0 0 0em #8c7156 inset;
     }
   }
 
@@ -1600,7 +1600,7 @@
     content: "";
     width: 100px;
     height: 100px;
-    background: #8b0000;
+    background: #8c7156;
     left: 50%;
     top: 0%;
     z-index: -1;
@@ -1703,7 +1703,7 @@
 
   .tel__number {
     text-decoration: none;
-    color: #8b0000;
+    color: #8c7156;
   }
 
   .col-md-4 {
@@ -1742,7 +1742,7 @@
 
   .fa-phone,
   .fa-location-arrow {
-    color: #8b0000;
+    color: #8c7156;
   }
 
   .mapbox p iframe {
@@ -1806,9 +1806,16 @@
   }
 
   .breadcrumbs__container {
-    background: #8b0000;
+    background: #1a243f;
     display: flex;
     align-items: center;
+  }
+
+  .text-left ul {
+    list-style-type: disc;
+    line-height: 1.6;
+    margin: 10px 0 20px 20px;
+    text-align: left;
   }
 
   .breadcrumbs__container__main {
@@ -1820,6 +1827,30 @@
     position: relative;
     padding-top: 100px;
     margin-top: 16px;
+  }
+
+  .text-left ul {
+    list-style-type: disc;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .text-left ul li {
+    padding-left: 20px;
+    position: relative;
+    list-style-type: none;
+  }
+
+  .text-left ul li:before {
+    position: absolute;
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px;
+    color: #8c7156;
+    left: 0px;
+    top: 0px;
+    text-decoration: none;
+    font-weight: 900;
   }
 
   .practicewrap {
@@ -1892,7 +1923,7 @@
     margin-right: 1em;
     opacity: 1;
     visibility: visible;
-    background: #8b0000;
+    background: #8c7156;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1909,7 +1940,7 @@
     opacity: 1;
     font-size: 14px;
     visibility: hidden;
-    color: #8b0000;
+    color: #8c7156;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1920,8 +1951,8 @@
   }
 
   .practice-sec .practicewrap .practice-list ul li a:hover {
-    color: #8b0000;
-    border-color: #8b0000;
+    color: #8c7156;
+    border-color: #8c7156;
     padding-left: 0;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -2030,7 +2061,7 @@
   }
 
   .owl-carousel-container-divorce span {
-    color: #8b0000;
+    color: #8c7156;
     font-family: "Lato";
     font-size: 16px;
     font-weight: bold;
@@ -2090,7 +2121,7 @@
   }
 
   .owl-dots-divorce button.active {
-    background: #8b0000;
+    background: #8c7156;
   }
 
   .owl-slide-divorce {
@@ -2154,7 +2185,7 @@
   }
 
   .text h5 {
-    color: #8b0000;
+    color: #8c7156;
     font-family: "Lato";
     font-size: 16px;
     font-weight: bold;
@@ -2247,7 +2278,7 @@
   }
 
   .text-left a {
-    color: #8b0000;
+    color: #8c7156;
   }
 
   .practicewrap {
@@ -2282,7 +2313,7 @@
     height: 100px;
     display: flex;
     padding: 20px;
-    background: #8b0000;
+    background: #8c7156;
     align-items: center;
   }
 
@@ -2333,7 +2364,7 @@
     height: 100px;
     display: flex;
     padding: 20px;
-    background: #8b0000;
+    background: #8c7156;
     align-items: center;
   }
 
