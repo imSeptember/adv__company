@@ -1,0 +1,28 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-main);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8c7156;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8c7156;
+}
+
+.color__brown {
+  transition: 0.5s ease-in-out;
+}
+
+.color__brown:hover {
+  color: #8c7156;
+}

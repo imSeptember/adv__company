@@ -1671,7 +1671,7 @@
   }
 
   .text-banner h2 {
-    color: #1a243f;
+    color: #8c7156;
     font-size: 55px;
     text-transform: uppercase;
     line-height: 1.1;
@@ -2225,5 +2225,13 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #8c7156;
+  }
+
+  .color__brown {
+    transition: 0.5s ease-in-out;
+  }
+
+  .color__brown:hover {
+    color: #8c7156;
   }
 }

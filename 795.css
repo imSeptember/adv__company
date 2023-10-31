@@ -1837,7 +1837,7 @@
   }
 
   .text-banner h2 {
-    color: #1a243f;
+    color: #8c7156;
     font-size: 35px;
     text-transform: uppercase;
     line-height: 1.1;
@@ -2427,26 +2427,5 @@
 
   .block {
     display: block;
-  }
-
-  /* width */
-  ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-  }
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: var(--color-main);
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #8c7156;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #8c7156;
   }
 }
