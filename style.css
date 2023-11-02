@@ -737,7 +737,7 @@ body {
   padding: 170px 50px 70px 0;
   position: relative;
   z-index: 2;
-  text-align: right;
+  /* text-align: right; */
 }
 
 .pe-7s-culture {
@@ -1273,7 +1273,7 @@ body {
 
 .breadcrumbs {
   list-style: none;
-  padding: 25px 8px 25px 8px;
+  padding: 20px 8px 20px 8px;
   max-width: 1252px;
   display: flex;
   margin-left: auto;
@@ -1649,6 +1649,16 @@ h3 {
   margin: 0 0 20px;
   line-height: 1.5;
   font-family: "Bellefair";
+}
+
+.practice-sec-text h1 {
+  font-size: 36px;
+  color: #1a243f;
+  font-weight: 400;
+  margin: 0 0 20px;
+  line-height: 1.1;
+  font-family: "Bellefair";
+  text-transform: capitalize;
 }
 
 .visible {
