@@ -1,47 +1,20 @@
-@media (min-width: 795px) and (max-width: 945px) {
+@media (min-width: 1245px) {
   .nav__container {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    transition: right 0.3s ease 0s;
-    right: -100%;
-    overflow: auto;
-    z-index: 4;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav__container.__active {
-    right: 0;
-  }
-
-  .nav__container li {
-    padding: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
   }
 
   .main__page__photo {
     margin-top: 40px;
   }
 
-  .link__style__tg.__active {
-    display: block;
-    z-index: 4;
+  .link__style__tg {
+    position: absolute;
   }
 
   .main__page__kalenskiy {
     margin-top: 200px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .main__page__kalenskiy__family {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .main__page__right__side__photo {
@@ -52,34 +25,58 @@
   }
 
   .main__page__left__side {
-    margin-bottom: 52px;
+    /* margin-right: 100px; */
     padding: 0 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
-  .discount__family {
-    display: flex;
-    justify-content: center;
+  .main__page__right__side__family {
+    margin-left: 110px;
+  }
+
+  .main__page__left__side__article {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2a2c32;
+  }
+
+  .main__page__left__side__text {
+    max-width: 447px;
+    text-align: left;
   }
 
   .box__wrapper {
     height: 284px;
-    width: 539px;
+    width: 477px;
     padding: 30px 56px;
-    margin-top: -70px;
-    margin-left: 1px;
+    margin-top: -130px;
+    margin-left: -230px;
   }
 
   .main__page__services__cantainer {
-    margin-top: 252px;
+    margin-top: 200px;
   }
 
   .main__page__services__wrapper {
-    flex-basis: 100%;
+    flex-basis: 60%;
     padding: 0 8px;
-    margin-bottom: 52px;
+  }
+
+  .main__page__services__text {
+    max-width: 516px;
+  }
+
+  .btn__more::before {
+    top: 8px;
+  }
+
+  .main__page__services__block {
+    flex-basis: 20% !important;
+  }
+
+  .button__head {
+    justify-content: center;
   }
 
   .flex__footer {
@@ -116,7 +113,6 @@
     margin-right: auto;
     margin-top: 170px;
     margin-bottom: 200px;
-    text-align: justify;
   }
 
   .family__text h4 {
@@ -144,15 +140,14 @@
     letter-spacing: 0;
     font-weight: 100;
     margin-bottom: 20px;
-    font-family: "Bellefair";
+    font-family: "Playfair Display";
     color: #1a243f;
     text-transform: uppercase;
     font-size: 50px;
     text-align: left;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
-    text-align: center;
-    max-width: 568px;
+    width: 568px;
   }
 
   .heading__text__family.hidden {
@@ -162,11 +157,10 @@
   .heading__more__family {
     letter-spacing: 2px;
     text-transform: uppercase;
-    height: 300px;
-    text-align: center;
+    width: 568px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .discount__zsy {
@@ -192,68 +186,46 @@
     position: absolute;
   }
 
-  /* // 
-
-  BURGER MENU 
-
-  //  */
-
-  /* .menu__icon {
-    display: none;
-    visibility: hidden;
-  } */
-
-  body.__lock {
-    overflow: hidden;
+  .menu__icon {
+    display: none !important;
+    visibility: hidden !important;
   }
 
   .small__btns {
     display: none;
   }
 
-  .women__child {
-    display: none;
-  }
-
-  .women__child__box {
-    max-width: 1252px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 8px;
-  }
-
-  .women__child__small {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-
-  .women__child__text h4 {
-    color: #1a243f;
-    font-weight: 400;
-    margin: 0 0 20px;
-    line-height: 1.1;
-    font-size: 36px;
-    font-family: "Bellefair";
-  }
-
   .welcome-sec {
-    margin-top: 193px;
+    margin-top: -3px;
     position: relative;
   }
 
   .women__child__box__img {
-    width: 90%;
+    /* width: 61.8%; */
     display: flex;
     margin-left: -100px;
+    margin-top: -100px;
+  }
+
+  .women__child__box {
+    display: flex;
+    padding: 0 8px;
+    max-width: 1252px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .discount__family {
     position: relative;
     width: 568px;
     height: 238px;
+  }
+
+  .women__child {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .women__child__text {
@@ -271,7 +243,7 @@
     margin: 0 0 20px;
     line-height: 1.1;
     font-size: 36px;
-    font-family: "Bellefair";
+    font-family: "Playfair Display";
     text-align: center;
   }
 
@@ -283,7 +255,7 @@
   .practice-area {
     position: relative;
     padding-top: 0;
-    margin-top: 100px;
+    margin-top: 200px;
   }
 
   .practice-box {
@@ -298,11 +270,11 @@
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1.1;
-    font-family: "Bellefair";
+    font-family: "Playfair Display";
   }
 
   .box-col-content {
-    width: 50%;
+    width: 33.3333333333%;
     position: relative;
     min-height: 1px;
     padding-left: 8px;
@@ -324,7 +296,7 @@
     color: #fff;
     font-weight: 500;
     line-height: 1.5;
-    font-family: "Bellefair";
+    font-family: "Playfair Display";
     font-size: 23px;
   }
 
@@ -344,18 +316,21 @@
   }
 
   .default_btn {
-    position: relative;
-    right: 0;
-    top: auto;
-    margin-top: 30px;
+    right: 14px;
+    top: 70px;
+    position: absolute;
   }
+
+  .women__child__small {
+    display: none;
+  }
+  /* // */
 
   .container-cases {
     max-width: 1252px;
     width: 100%;
     margin: auto;
     padding: 0px 8px 0px 8px;
-    text-align: center;
   }
 
   .container-cases-row-heading h4 {
@@ -372,36 +347,41 @@
     display: flex;
     margin: 0 0 30px;
     width: max-content;
-    margin: auto;
+  }
+
+  .sec-row {
+    display: flex;
   }
 
   .sec-row-text {
     background: none;
     padding-bottom: 0;
     padding-right: 0;
-    width: 100%;
+    width: 55%;
     padding-left: 0%;
-    padding-top: 70px;
+    padding-top: 170px;
     position: relative;
     z-index: 2;
-    text-align: center;
+    text-align: right;
   }
 
   .testimonial_box {
     text-align: right;
     border-top: 0;
-    padding: 100px 40px 100px 40px;
+    padding: 150px 0px 100px 0;
     position: relative;
     background: #fff;
+    padding-left: 10%;
   }
 
   .sec-row-counter-box {
-    width: 100%;
-    margin: 0;
-    padding: 0;
     background: #121212;
+    width: 55%;
     display: flex;
+    margin-left: -100px;
+    margin-top: 0px;
     align-items: center;
+    padding-left: 100px;
   }
 
   .xicon-bot {
@@ -411,27 +391,25 @@
     padding: 20px;
     background: #8c7156;
     align-items: center;
-    left: 0;
+    position: absolute;
+    top: 0px;
     right: 0;
-    margin: 0 auto 50px;
-    position: relative;
   }
 
   .owl-carousel {
-    position: relative;
     text-align: right;
     width: 100%;
     z-index: 1;
   }
 
   .owl-carousel-container {
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 20px;
     position: relative;
   }
 
   .client-id p {
-    text-align: center;
+    text-align: right;
   }
 
   .carousel-container-text {
@@ -439,7 +417,7 @@
     color: #1a243f;
     margin: 0 auto 40px;
     font-size: 16px;
-    max-width: 95%;
+    width: 100%;
     font-weight: normal;
     position: relative;
     text-align: justify;
@@ -447,43 +425,44 @@
   }
 
   .owl-dots {
-    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 0%;
     margin: 30px 0 0;
   }
 
   .owl-dots label {
     padding: 5px;
     cursor: pointer;
-    display: inline-flex;
+    display: flex;
   }
 
   .owl-dots button {
-    height: 3px;
-    width: 30px;
+    height: 30px;
+    width: 3px;
     border-radius: 5px;
+    background: #181818;
+    display: block;
     color: black;
+    border: none;
     cursor: pointer;
     transition: opacity 1.8s;
-    display: inline-block;
   }
 
   .owl-slide {
-    text-align: center;
-  }
-
-  .visible {
-    display: block;
+    height: 290px;
   }
 
   .contact-sec {
-    display: block;
     position: relative;
   }
 
   .contact-img-box {
     height: 549px;
     margin-left: 0;
+    width: 60%;
     margin-top: 0;
+    margin-right: -100px;
     display: flex;
   }
 
@@ -498,11 +477,12 @@
   .contact-img-text {
     position: relative;
     z-index: 2;
-    width: 100%;
+    width: 70%;
+    padding: 100px 0px 0px 0;
   }
 
   .inquiries_form {
-    padding: 80px 50px 50px;
+    padding: 180px 50px 50px;
     margin: 0;
     position: relative;
     background: #fff;
@@ -510,16 +490,18 @@
   }
 
   .contact-xicon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    justify-content: center;
     width: 100px;
     height: 100px;
     display: flex;
     padding: 20px;
     background: #8c7156;
     align-items: center;
-    left: 0;
-    right: 0;
-    margin: 0 auto 50px;
-    position: relative;
+    text-align: left;
   }
 
   .contact-area-heading {
@@ -554,7 +536,7 @@
     text-align: center;
     color: #fff;
     padding: 100px 0;
-    margin-top: 100px;
+    margin-top: 200px;
   }
 
   .homeAbout-heading h2 {
@@ -577,16 +559,14 @@
     list-style: none;
   }
 
-  /* /////// DIVORCE //////// */
-
   .text-right {
     margin: 0 0 30px;
-    text-align: center;
+    text-align: right;
   }
 
   .text-banner h2 {
     color: #8c7156;
-    font-size: 45px;
+    font-size: 55px;
     text-transform: uppercase;
     line-height: 1.1;
     font-family: "Bellefair";
@@ -598,17 +578,11 @@
     padding: 11px 17px;
     color: #fff;
     text-transform: uppercase;
+    transition: 0.5s ease-in-out;
   }
 
   .breadcrumbs__container {
     background: #1a243f;
-    display: flex;
-    align-items: center;
-  }
-
-  .breadcrumbs__container__main {
-    display: flex;
-    align-items: center;
   }
 
   .practice-sec {
@@ -632,6 +606,17 @@
     margin: 0 0 20px;
     line-height: 1.1;
     font-family: "Bellefair";
+  }
+
+  .practice-sec-text {
+    text-align: left;
+    padding-top: 125px;
+    background: #fff;
+    padding: 170px 50px 70px 0;
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    padding-left: 5%;
   }
 
   .practice-sec-xicon {
@@ -665,68 +650,18 @@
   .textImg-sec {
     position: relative;
     text-align: left;
-  }
-
-  .practicewrap {
-    width: 100% !important;
-  }
-
-  .practice-sec-text {
-    text-align: justify;
-    padding-top: 125px;
-    background: #fff;
-    padding: 170px 20px;
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    padding-left: 5%;
-  }
-
-  .practice-sec-xicon {
-    left: 0;
-    right: 0;
-    margin: 0 auto 50px;
-    position: relative;
-    top: 0px;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    padding: 20px;
-    background: #8c7156;
-    align-items: center;
-  }
-
-  .practice-sec-heading {
-    margin: 0 0 30px;
-    font-family: "Lato";
-    font-weight: normal;
-    color: #181818;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-  }
-
-  .controlers-container {
-    margin-top: 20px;
-    margin-bottom: 60px;
+    padding: 100px 0;
   }
 
   .text-left {
-    padding: 170px 50px !important;
-  }
-
-  .smaller {
-    display: flex;
-    flex-direction: column-reverse;
+    padding-left: 5% !important;
+    width: 60%;
   }
 
   .xicon-text-left {
-    left: 0;
-    right: 0;
-    margin: 0 auto 50px;
-    position: relative;
+    position: absolute;
     top: 0px;
+    right: 0;
     justify-content: center;
     width: 100px;
     height: 100px;
@@ -736,12 +671,9 @@
     align-items: center;
   }
 
-  .textImg-sec {
-    position: relative;
-    text-align: left;
-  }
-
-  .block {
-    display: block;
+  .img-box-culture {
+    width: 61.8%;
+    margin-left: -100px;
+    margin-top: -100px;
   }
 }
