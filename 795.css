@@ -125,8 +125,19 @@
   }
 
   .footer__text__right li {
+    margin-top: 20px;
     margin-bottom: 20px;
     list-style: none;
+  }
+
+  .footer__text__left {
+    /* width: 100%; */
+    flex-basis: 50%;
+  }
+
+  .footer__text__right {
+    /* width: 100%; */
+    flex-basis: 100%;
   }
 
   .family__text {
@@ -625,43 +636,6 @@
     flex-direction: column;
     text-decoration: none;
     list-style: none;
-  }
-
-  @media (min-width: 466px) and (max-width: 752px) {
-    .footer__text__right {
-      margin-top: 40px;
-      display: flex;
-    }
-
-    .footer__text__right li {
-      padding-right: 10px;
-    }
-
-    .col-md-4 {
-      margin-top: 17px;
-    }
-  }
-
-  @media (max-width: 567px) {
-    .footer__text__right {
-      margin-top: 40px;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-    }
-
-    .footer__text__right li {
-      padding-right: 10px;
-    }
-
-    .col-md-4 {
-      margin-top: 17px;
-    }
-
-    .flex__footer .footer__text__left li {
-      margin: 0 180px 5px 0;
-      list-style: none;
-    }
   }
 
   /* /////// DIVORCE //////// */
