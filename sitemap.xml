@@ -1,96 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://kalenskiy.netlify.app/</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://kalenskiy.netlify.app/</loc>
+	<lastmod>2023-11-09T11:49:33+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-family-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-family-lawyer</loc>
+	<lastmod>2023-11-09T11:49:33+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-divorce-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-divorce-lawyer</loc>
+	<lastmod>2023-11-09T11:49:34+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-child-custody-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-child-custody-lawyer</loc>
+	<lastmod>2023-11-09T11:49:34+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-property-division-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-property-division-lawyer</loc>
+	<lastmod>2023-11-09T11:49:34+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-alimony-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-alimony-lawyer</loc>
+	<lastmod>2023-11-09T11:49:34+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-adoption-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-adoption-lawyer</loc>
+	<lastmod>2023-11-09T11:49:34+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-child-support-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-child-support-lawyer</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-collaborative-divorce</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-collaborative-divorce</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-complex-asset-division</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-complex-asset-division</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-divorce-debt</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-divorce-debt</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-guardianship</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-guardianship</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-mediation</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-mediation</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-modification-of-judgement-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-modification-of-judgement-lawyer</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-paternity-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-paternity-lawyer</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-prenuptial-agreements-lawyer</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-prenuptial-agreements-lawyer</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kalenskiy.netlify.app/kyiv-city-protection-orders</loc>
-  <lastmod>2023-11-02T21:23:35+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://kalenskiy.netlify.app/kyiv-city-protection-orders</loc>
+	<lastmod>2023-11-09T11:49:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
-
-
 </urlset>
