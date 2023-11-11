@@ -1607,7 +1607,17 @@ body {
 }
 
 .contact-text-banner {
-  margin-top: -120px;
+  position: relative;
+  padding: 50px 0 50px;
+}
+
+.contact-text-banner h2 {
+  color: #8c7156;
+  font-size: 55px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-family: "Bellefair";
+  font-weight: 400;
 }
 
 .text-banner-container {
