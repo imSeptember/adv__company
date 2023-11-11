@@ -445,6 +445,12 @@
     position: relative;
   }
 
+  .contact-block-img-box {
+    height: 490px;
+    margin-top: 0;
+    display: flex;
+  }
+
   .contact-img-box {
     height: 549px;
     margin-left: 0;
@@ -554,6 +560,15 @@
   }
 
   .text-banner h2 {
+    color: #8c7156;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: "Bellefair";
+    font-weight: 400;
+  }
+
+  .contact-text-banner h2 {
     color: #8c7156;
     font-size: 55px;
     text-transform: uppercase;
@@ -679,5 +694,9 @@
 
   .block {
     display: block;
+  }
+
+  .contact_text {
+    text-align: center !important;
   }
 }
