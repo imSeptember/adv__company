@@ -10,19 +10,21 @@ const familyArticle = document.querySelector('.heading__text__family')
 const discountTag = document.querySelector('.discount__family')
 let index = 0
 
-function toggleText() {
-  familyArticle.classList.add('hidden') // Apply the 'hidden' class to fade out the text
+if (familyArticle) {
+  function toggleText() {
+    familyArticle.classList.add('hidden') // Apply the 'hidden' class to fade out the text
 
-  setTimeout(() => {
-    if (index !== 2) {
-      index++
-    } else {
-      index = 0
-    }
+    setTimeout(() => {
+      if (index !== 2) {
+        index++
+      } else {
+        index = 0
+      }
 
-    familyArticle.innerHTML = familyArr[index]
-    familyArticle.classList.remove('hidden') // Remove the 'hidden' class to fade in the new text
-  }, 500)
+      familyArticle.innerHTML = familyArr[index]
+      familyArticle.classList.remove('hidden') // Remove the 'hidden' class to fade in the new text
+    }, 500)
+  }
 }
 
 setInterval(toggleText, 3000)
@@ -35,12 +37,14 @@ const iconMenu = document.querySelector('.menu__icon')
 const menuBody = document.querySelector('.nav__container')
 const linkTg = document.querySelector('.link__style__tg')
 
-iconMenu.addEventListener('click', function (e) {
-  document.body.classList.toggle('__lock')
-  iconMenu.classList.toggle('__active')
-  menuBody.classList.toggle('__active')
-  linkTg.classList.toggle('__active')
-})
+if (iconMenu && menuBody && linkTg) {
+  iconMenu.addEventListener('click', function (e) {
+    document.body.classList.toggle('__lock')
+    iconMenu.classList.toggle('__active')
+    menuBody.classList.toggle('__active')
+    linkTg.classList.toggle('__active')
+  })
+}
 
 ///END BURGER LOGIC ///
 
@@ -48,26 +52,29 @@ iconMenu.addEventListener('click', function (e) {
 
 const carouselButtons = document.querySelectorAll('.owl-dot')
 
-carouselButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    // Remove "active" class from all buttons
-    carouselButtons.forEach((btn) => {
-      btn.classList.remove('active')
-    })
+if (carouselButtons.length) {
+  carouselButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      // Remove "active" class from all buttons
+      carouselButtons.forEach((btn) => {
+        btn.classList.remove('active')
+      })
 
-    // Add "active" class to the clicked button
-    button.classList.add('active')
+      // Add "active" class to the clicked button
+      button.classList.add('active')
+    })
   })
-})
+}
 
 const firstButton = document.getElementById('button-1')
 const secondButton = document.getElementById('button-2')
 const thirdButton = document.getElementById('button-3')
 
-firstButton.addEventListener('click', changeFirstText)
-secondButton.addEventListener('click', changeSecondText)
-thirdButton.addEventListener('click', changeThirdText)
-
+if (firstButton && secondButton && thirdButton) {
+  firstButton.addEventListener('click', changeFirstText)
+  secondButton.addEventListener('click', changeSecondText)
+  thirdButton.addEventListener('click', changeThirdText)
+}
 const firstSlide = document.getElementById('firstSlide')
 const secondSlide = document.getElementById('secondSlide')
 const thirdSlide = document.getElementById('thirdSlide')
@@ -118,12 +125,14 @@ function toggleVisibility(newFlag) {
 const buttonHide = document.querySelector('.frm_btn')
 const manualHide = document.querySelector('.manual__hide')
 
-buttonHide.addEventListener('click', function hideText() {
-  buttonHide.style.display = 'none'
-  manualHide.style.display = 'block'
-  setTimeout(() => {
-    manualHide.style.opacity = '1'
-  }, 100)
-})
+if (buttonHide && manualHide) {
+  buttonHide.addEventListener('click', function hideText() {
+    buttonHide.style.display = 'none'
+    manualHide.style.display = 'block'
+    setTimeout(() => {
+      manualHide.style.opacity = '1'
+    }, 100)
+  })
+}
 
 ///END HIDE TEXT  ///
