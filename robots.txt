@@ -1,11 +1,8 @@
+# *
 User-agent: *
-Disallow: /wp-admin/
-Disallow: /wp-login
-Disallow: /*?s=
 
-User-agent: Googlebot
-Disallow: /wp-admin/
-Disallow: /wp-login
-Disallow: /*?s=
+# Host
+Host: https://kalenskiy.pp.ua/
 
-Sitemap: https://kalenskiy.netlify.app/sitemap.xml
+# Sitemaps
+Sitemap: https://kalenskiy.pp.ua/sitemap.xml
