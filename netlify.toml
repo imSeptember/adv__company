@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://kalenskiy.pp.ua/*"
+  to = "https://kalenskiy.com.ua/"
+  status = 301
+  force = true
